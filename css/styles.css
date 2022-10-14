@@ -14,11 +14,24 @@ body {
 }
 .container {
     width: 1200px;
+
     padding-left: 15px;
     padding-right: 15px;
     margin: 0;
 }
+.outline {
+    outline: 1px solid red;
+}
 /* Шапка */
+.container-header {
+    display: flex;
+    align-items: center;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 .logo {
     color: var(--black-color);
     font-family: "Raleway", sans-serif;
@@ -31,22 +44,26 @@ body {
 .logo-first {
     color: var(--accent-color);
 }
-.outline {
-    outline: 1px solid red;
+.container-navigation {
+    display: flex;
+    margin-left: 93px;
 }
-.list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
+
 .list-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-list {
     list-style-type: none;
+}
+.header-list + .header-list {
+    margin-left: 50px;
 }
 .list-nav {
     color: var(--primary-text-color);
@@ -59,6 +76,11 @@ body {
 .list-nav.current {
     color: var(--accent-color);
 }
+
+.container-contacts {
+    display: flex;
+    margin-left: auto;
+}
 .header-contacts {
     color: var(--secondary-text-color);
     font-weight: 500;
@@ -70,6 +92,9 @@ body {
 .header-contacts:hover,
 .header-contacts:focus {
     color: var(--accent-color);
+}
+.header-contacts + .header-contacts {
+    margin-right: 50px;
 }
 
 /* Герой */
