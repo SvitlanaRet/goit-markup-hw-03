@@ -26,6 +26,7 @@ body {
 .container-header {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ececec;
 }
 .list {
     margin: 0;
@@ -141,8 +142,16 @@ body {
 .section.no-padding {
     padding-top: 0;
 }
+.container-features {
+    display: flex;
+}
+
 .features {
     list-style-type: none;
+    width: 270px;
+}
+.features + .features {
+    margin-left: 30px;
 }
 .caption-features {
     color: var(--primary-text-color);
@@ -176,7 +185,11 @@ body {
 .image {
     list-style-type: none;
 }
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* Наша команда */
 .bg-team {
     background-color: #f5f4fa;
