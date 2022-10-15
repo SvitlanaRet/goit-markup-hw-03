@@ -305,9 +305,14 @@ button {
 }
 .list-filtres {
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 .filtres {
     list-style-type: none;
+}
+.filtres + .filtres {
+    margin-left: 8px;
 }
 .bg-filtres {
     background-color: rgba(245, 244, 250, 1);
@@ -330,8 +335,17 @@ button {
     padding: 6px 25px;
 }
 /* Проекти */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .projects {
     list-style-type: none;
+}
+.projects-text {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
 }
 .caption-projects {
     color: var(--primary-text-color);
@@ -340,7 +354,6 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
     margin: 0;
-    padding-top: 20px;
     padding-bottom: 4px;
 }
 .desk-projects {
@@ -349,7 +362,6 @@ button {
     line-height: 1.87;
     letter-spacing: 0.03em;
     margin: 0;
-    padding-bottom: 20px;
 }
 a {
     text-decoration: none;
