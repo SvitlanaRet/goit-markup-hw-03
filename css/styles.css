@@ -113,6 +113,9 @@ body {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 30px;
+    width: 696px;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 .button {
     background-color: var(--accent-color);
@@ -182,6 +185,10 @@ body {
     margin-top: 0;
     margin-bottom: 50px;
 }
+.image-container {
+    display: flex;
+    gap: 30px;
+}
 .image {
     list-style-type: none;
 }
@@ -197,6 +204,17 @@ img {
 .card-team {
     background-color: var(--third-text-color);
     list-style-type: none;
+    width: 270px;
+}
+.team-container {
+    display: flex;
+    gap: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+}
+.team-text {
+    padding: 30px 70px;
 }
 .name-team {
     color: var(--primary-text-color);
@@ -206,7 +224,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0;
-    padding-top: 30px;
     padding-bottom: 10px;
 }
 .desk-team {
@@ -216,18 +233,30 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0;
-    padding-bottom: 30px;
 }
 
 /* Підвал */
 .bg-footer {
     background-color: #2f303a;
 }
+.logo-footer {
+    color: var(--black-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
 .logo-first {
     color: var(--accent-color);
 }
 .logo-second {
     color: var(--third-text-color);
+}
+.footer-container {
+    margin: 20px 0px 0px 0px;
+    padding-left: 0;
 }
 .footer-adress {
     color: var(--third-text-color);
