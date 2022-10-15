@@ -175,6 +175,11 @@ body {
 }
 
 /* Чим ми займаємося  */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .caption {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -188,15 +193,13 @@ body {
 .image-container {
     display: flex;
     gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 .image {
     list-style-type: none;
 }
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 /* Наша команда */
 .bg-team {
     background-color: #f5f4fa;
