@@ -43,13 +43,13 @@ header {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-right: 93px;
 }
 .logo-first {
     color: var(--accent-color);
 }
 .container-navigation {
     display: flex;
-    margin-left: 93px;
 }
 
 .list-nav {
@@ -91,6 +91,10 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-contacts:hover,
 .header-contacts:focus {
@@ -104,6 +108,8 @@ header {
 .hero {
     background-color: #2f303a;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .title {
     color: var(--third-text-color);
@@ -113,8 +119,6 @@ header {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 30px;
     width: 696px;
     margin: 0 auto;
 }
@@ -243,11 +247,10 @@ img {
 /* Підвал */
 .bg-footer {
     background-color: #2f303a;
-}
-.footer-general {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .logo-footer {
     color: var(--black-color);
     font-family: "Raleway", sans-serif;
@@ -268,6 +271,7 @@ address {
 }
 .footer-container {
     padding-left: 0;
+    margin: 0;
 }
 .footer-adress {
     color: var(--third-text-color);
@@ -294,6 +298,8 @@ address {
 }
 .list-footer {
     list-style-type: none;
+}
+.list-footer:not(:first-child) {
     margin-top: 9px;
 }
 /* Finish Studio page */
