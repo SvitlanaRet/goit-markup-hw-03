@@ -20,54 +20,55 @@
 
     <body>
         <!-- Шапка -->
-        <div class="container">
-            <header>
-                <div class="container-header">
-                    <a href="" class="logo"
-                        ><span class="logo-first">Web</span>Studio</a
-                    >
-                    <nav>
-                        <ul class="list container-navigation">
-                            <li class="header-list">
-                                <a href="" class="list-nav current">Студія</a>
-                            </li>
-                            <li class="header-list">
-                                <a href="./portfolio.html" class="list-nav"
-                                    >Портфоліо</a
-                                >
-                            </li>
-                            <li class="header-list">
-                                <a href="" class="list-nav">Контакти</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <ul class="list container-contacts">
+        <header>
+            <div class="container container-header">
+                <a href="" class="logo"
+                    ><span class="logo-first">Web</span>Studio</a
+                >
+                <nav>
+                    <ul class="list container-navigation">
                         <li class="header-list">
-                            <a
-                                href="mailto:info@devstudio.com"
-                                class="header-contacts"
-                                >info@devstudio.com</a
+                            <a href="./index.html" class="list-nav current"
+                                >Студія</a
                             >
                         </li>
                         <li class="header-list">
-                            <a href="tel:+380961111111" class="header-contacts"
-                                >+38 096 111 11 11</a
+                            <a href="./portfolio.html" class="list-nav"
+                                >Портфоліо</a
                             >
+                        </li>
+                        <li class="header-list">
+                            <a href="" class="list-nav">Контакти</a>
                         </li>
                     </ul>
-                </div>
-            </header>
+                </nav>
+                <ul class="list container-contacts">
+                    <li class="header-list">
+                        <a
+                            href="mailto:info@devstudio.com"
+                            class="header-contacts"
+                            >info@devstudio.com</a
+                        >
+                    </li>
+                    <li class="header-list">
+                        <a href="tel:+380961111111" class="header-contacts"
+                            >+38 096 111 11 11</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </header>
 
-            <main>
-                <!-- Герой -->
-                <section class="hero">
-                    <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="button">
-                        Замовити послугу
-                    </button>
-                </section>
-                <!-- Особливості -->
-                <section class="section">
+        <main>
+            <!-- Герой -->
+            <section class="hero">
+                <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="button">Замовити послугу</button>
+            </section>
+            <!-- Особливості -->
+            <section class="section">
+                <div class="container">
+                    <h2 class="visually-hidden">Особливості</h2>
                     <ul class="list container-features">
                         <li class="features">
                             <h3 class="caption-features">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -98,9 +99,11 @@
                             </p>
                         </li>
                     </ul>
-                </section>
-                <!-- Чим ми займаємося -->
-                <section class="section no-padding">
+                </div>
+            </section>
+            <!-- Чим ми займаємося -->
+            <section class="section no-padding">
+                <div class="container">
                     <h2 class="caption">Чим ми займаємося</h2>
                     <ul class="image-container">
                         <li class="image">
@@ -128,9 +131,11 @@
                             />
                         </li>
                     </ul>
-                </section>
-                <!-- Наша команда -->
-                <section class="bg-team section">
+                </div>
+            </section>
+            <!-- Наша команда -->
+            <section class="bg-team section">
+                <div class="container">
                     <h2 class="caption">Наша команда</h2>
                     <ul class="team-container">
                         <li class="card-team">
@@ -182,11 +187,13 @@
                             </div>
                         </li>
                     </ul>
-                </section>
-            </main>
+                </div>
+            </section>
+        </main>
 
-            <!-- Підвал -->
-            <footer class="bg-footer">
+        <!-- Підвал -->
+        <footer class="bg-footer">
+            <div class="container footer-general">
                 <a href="" class="logo-footer"
                     ><span class="logo-first">Web</span
                     ><span class="logo-second">Studio</span></a
@@ -216,7 +223,7 @@
                         </li>
                     </ul>
                 </address>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </body>
 </html>
